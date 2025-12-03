@@ -9,8 +9,8 @@ module "vpc" {
   private_subnets = ["10.90.1.0/24", "10.90.2.0/24", "10.90.3.0/24"]
   public_subnets  = ["10.90.101.0/24", "10.90.102.0/24", "10.90.103.0/24"]
 
-  # Deshabilitar NAT Gateway
-  enable_nat_gateway = false
+  # Configuraciones de Gateways
+  enable_nat_gateway = true
   enable_vpn_gateway = false
 
   # Habilitar DNS

@@ -10,7 +10,7 @@ module "vpc" {
   public_subnets  = ["10.90.101.0/24", "10.90.102.0/24", "10.90.103.0/24"]
 
   # Configuraciones de Gateways
-  enable_nat_gateway = true
+  enable_nat_gateway = false
   enable_vpn_gateway = false
 
   # Habilitar DNS
